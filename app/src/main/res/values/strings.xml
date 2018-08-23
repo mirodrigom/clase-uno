@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">clase-uno</string>
+    <string name="btn1">Mostrar</string>
 </resources>
