@@ -23,6 +23,10 @@ public class Escuchador implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        txt1.setText(edt1.getText().toString());
+        if(v.findViewById(R.id.btn1).isPressed())
+        {
+            txt1.setText(edt1.getText().toString());
+            edt1.setText("");
+        }
     }
 }

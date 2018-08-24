@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
         txe1.setHint("ver");
         txt1.setText("--------");
         btn1.setText("Mostrar!");
-        Escuchador escuchador = new Escuchador();
+
+        Escuchador escuchador = new Escuchador(txt1,txe1);
         btn1.setOnClickListener(escuchador);
+
     }
 }
